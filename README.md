@@ -1,8 +1,8 @@
 # backEnd
-<p>BackEnd do e-commerce Projeto Igarapé em contrução</p>
+<p>BackEnd do e-commerce Projeto Igarapé em construção</p>
 
 <b>Grupo 5</b>
-<p>Integrantes</p>
+<i><p>Integrantes</p></i>
 <p>Brenda Paiva</p>
 <p>Rafael Ferreira</p>
 <p>Larissa Pavan</p>
