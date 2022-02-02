@@ -18,15 +18,13 @@ public class Usuario {
 	private Long id;
 		
 	@NotNull(message="A inserção do nome é obrigatória")
-	@Size(min=2,max=50,message="O nome do produto deve conter entre 2 e 50 caracteres")
 	private String nome;
 
 	@NotNull(message="A inserção do email é obrigatória")
-	@Size(min=2,max=50,message="O nome do produto deve conter entre 2 e 50 caracteres")
 	private String email;
 
 	@NotNull(message="A inserção da senha é obrigatória")
-	@Size(min=2,max=50,message="O nome do produto deve conter entre 2 e 50 caracteres")
+	@Size(min=8, message="O nome do produto deve conter entre 2 e 50 caracteres")
 	private String senha;
 
 	public Long getId() {
@@ -61,5 +59,4 @@ public class Usuario {
 		this.senha = senha;
 	}
 
-	
 }

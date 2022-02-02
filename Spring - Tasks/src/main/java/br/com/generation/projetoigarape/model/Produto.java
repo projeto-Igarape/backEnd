@@ -2,7 +2,6 @@ package br.com.generation.projetoigarape.model;
 
 import java.math.BigDecimal;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -35,6 +34,10 @@ private String foto;
 @ManyToOne
 @JsonIgnoreProperties("produto")
 private Categoria categoria;
+
+@ManyToOne
+@JsonIgnoreProperties("produto")
+private Usuario usuario;
 
 public Long getId() {
 	return id;
@@ -76,6 +79,13 @@ public void setCategoria(Categoria categoria) {
 	this.categoria = categoria;
 }
 
+public Usuario getUsuario() {
+	return usuario;
+}
+
+public void setUsuario(Usuario usuario) {
+	this.usuario = usuario;
+}
 
 
 }
