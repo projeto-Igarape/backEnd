@@ -1,6 +1,5 @@
 package br.com.generation.projetoigarape.controller;
 import java.util.List;
-
 import java.util.Optional;
 
 import javax.validation.Valid;
@@ -18,11 +17,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.generation.projetoigarape.service.UsuarioService;
-
 import br.com.generation.projetoigarape.model.Usuario;
 import br.com.generation.projetoigarape.model.UsuarioLogin;
 import br.com.generation.projetoigarape.repository.UsuarioRepository;
+import br.com.generation.projetoigarape.service.UsuarioService;
 
 
 @RestController
@@ -35,7 +33,7 @@ public class UsuarioController {
 	
 	@Autowired
 	private UsuarioRepository usuarioRepository;
-	
+		
 	@GetMapping("/listar")
 	public ResponseEntity <List<Usuario>> getAll(){
 		
