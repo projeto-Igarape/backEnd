@@ -25,6 +25,7 @@ import br.com.generation.projetoigarape.model.UsuarioLogin;
 import br.com.generation.projetoigarape.repository.UsuarioRepository;
 
 
+
 @RestController
 @RequestMapping("/usuarios")
 @CrossOrigin(origins = "*", allowedHeaders = "*")

@@ -7,13 +7,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.1</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath /> 
 	</parent>
 	<groupId>br.org.generation</groupId>
-	<artifactId>lojagames</artifactId>
+	<artifactId>projetoigarape</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lojagames</name>
-	<description>Loja de Games</description>
+	<name>projetoigarepe</name>
+	<description>Projeto Igarepe</description>
 	<properties>
 		<java.version>16</java.version>
 	</properties>
@@ -36,7 +36,6 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<!-- Dependência para Criptografia da senha -->
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
