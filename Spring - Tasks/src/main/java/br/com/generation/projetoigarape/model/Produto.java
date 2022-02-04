@@ -86,6 +86,10 @@ public Usuario getUsuario() {
 public void setUsuario(Usuario usuario) {
 	this.usuario = usuario;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> task8
 
 
 }

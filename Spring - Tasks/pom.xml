@@ -9,8 +9,13 @@
 		<version>2.6.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>br.org.generation</groupId>
 	<artifactId>projetoigarape</artifactId>
+=======
+	<groupId>br.com.generation</groupId>
+	<artifactId>Spring-Tasks</artifactId>
+>>>>>>> task8
 	<version>0.0.1-SNAPSHOT</version>
 	<name>projetoigarape</name>
 	<description>Projeto Igarape</description>
@@ -59,6 +64,19 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.5.13</version>
+		</dependency>
+		
+		<dependency>
+>>>>>>> task8
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -68,6 +86,18 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+<<<<<<< HEAD
+=======
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+>>>>>>> task8
 		</dependency>
 	</dependencies>
 

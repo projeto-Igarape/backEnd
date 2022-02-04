@@ -25,7 +25,11 @@ public class UsuarioService {
 		if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent())
 			throw new ResponseStatusException(
 						HttpStatus.BAD_REQUEST, "O Usuário já existe!", null);
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> task8
 		usuario.setSenha(criptografarSenha(usuario.getSenha()));
 
 		return Optional.of(usuarioRepository.save(usuario));
@@ -44,7 +48,11 @@ public class UsuarioService {
 					throw new ResponseStatusException(
 						HttpStatus.BAD_REQUEST, "O Usuário já existe!", null);
 			}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> task8
 			usuario.setSenha(criptografarSenha(usuario.getSenha()));
 
 			return Optional.of(usuarioRepository.save(usuario));
@@ -97,5 +105,10 @@ public class UsuarioService {
 		return "Basic " + new String(tokenBase64);
 
 	}
+<<<<<<< HEAD
 	
 }
+=======
+
+}
+>>>>>>> task8
