@@ -1,5 +1,6 @@
 package br.com.generation.projetoigarape.controller;
 
+import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
@@ -32,6 +33,11 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioService usuarioService;
 	
+	@GetMapping 
+	public ResponseEntity<List<Usuario>> getAll() {
+		
+			return ResponseEntity.ok(usuarioRepository.findAll());
+	}
 	@GetMapping ("/{id}")
 	public ResponseEntity<Usuario>getById(@Valid @PathVariable Long id){
 		
