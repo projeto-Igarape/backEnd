@@ -13,13 +13,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @EnableWebSecurity
-<<<<<<< HEAD
-public class BasicSecurityConfig extends WebSecurityConfigurerAdapter {
-
-=======
 public class BasicSecurityConfig extends WebSecurityConfigurerAdapter{
 	
->>>>>>> task8
 	@Autowired
 	private UserDetailsService userDetailsService;
 
@@ -51,9 +46,5 @@ public class BasicSecurityConfig extends WebSecurityConfigurerAdapter{
 			.and().cors()
 			.and().csrf().disable();
 	}
-<<<<<<< HEAD
-}
-=======
 
 }
->>>>>>> task8

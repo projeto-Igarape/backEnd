@@ -26,11 +26,11 @@ public class SwaggerConfig {
 					.name("br.com.generation")
 					.url("http://springdoc.org"))
 				.contact(new Contact()
-					.name("Grupo 5 ")
+					.name("Grupo 5")
 					.url("https://github.com/projeto-Igarape")
 					.email("igarapeprojeto@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
-					.description("Github")
+					.description("GitHub")
 					.url("https://github.com/projeto-Igarape"));
 	}
 

@@ -13,12 +13,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-<<<<<<< HEAD
-=======
 import io.swagger.v3.oas.annotations.media.Schema;
 
->>>>>>> task8
 
 @Entity
 @Table(name="tb_usuarios")
@@ -36,11 +32,9 @@ public class Usuario {
 	private String email;
 
 	@NotNull(message="A inserção da senha é obrigatória")
-<<<<<<< HEAD
 	@Size(min=8, message="O nome do produto deve conter entre 2 e 50 caracteres")
-=======
+
 	@Size(min=8,message="O nome do produto deve conter entre 2 e 50 caracteres")
->>>>>>> task8
 	private String senha;
 	
 	@OneToMany(mappedBy="usuario", cascade=CascadeType.REMOVE)
@@ -78,10 +72,7 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-
-<<<<<<< HEAD
-}
-=======
+	
 	public List<Produto> getProduto() {
 		return produto;
 	}
@@ -90,8 +81,6 @@ public class Usuario {
 		this.produto = produto;
 	}
 
-	
-	
-		}
+}
 
->>>>>>> task8
+

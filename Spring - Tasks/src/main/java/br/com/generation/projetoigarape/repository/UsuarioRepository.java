@@ -9,10 +9,6 @@ import br.com.generation.projetoigarape.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
-<<<<<<< HEAD
 		public Optional<Usuario> findByEmail(String email);
 }
-=======
-	Optional<Usuario> findByEmail(String email);
-}
->>>>>>> task8
+

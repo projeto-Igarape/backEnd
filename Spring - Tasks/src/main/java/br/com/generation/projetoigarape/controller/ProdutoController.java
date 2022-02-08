@@ -33,25 +33,21 @@ public class ProdutoController {
 	    return ResponseEntity.ok(produtoRepository.findAll());
 	
 	}
-	
 	@GetMapping("/{id}")
 	public ResponseEntity<Produto> getById(@Valid @PathVariable Long id){
 		return produtoRepository.findById(id)
 				.map(resp-> ResponseEntity.ok(resp))
 				.orElse(ResponseEntity.notFound().build());
 	}
-	
 	@GetMapping("/nome/{nome}")
 	public ResponseEntity<List<Produto>> getByNome(@Valid @PathVariable String nome){
 		return ResponseEntity.ok(produtoRepository.findAllByNomeContainingIgnoreCase(nome));
 	}
-
 	@PostMapping
 	public ResponseEntity<Produto> postProduto(@Valid @RequestBody Produto produto){
 		return ResponseEntity.status(HttpStatus.CREATED)
 				.body(produtoRepository.save(produto));
 	}
-	
 	@PutMapping
 	public ResponseEntity<Produto> putProduto(@Valid @RequestBody Produto produto){
 		return produtoRepository.findById(produto.getId())
@@ -60,7 +56,6 @@ public class ProdutoController {
 		})
 				.orElse(ResponseEntity.notFound().build());
 	}
-	
 	@DeleteMapping("/{id}")
 	public ResponseEntity<?> deleteProduto(@PathVariable Long id){
 		return produtoRepository.findById(id).map(resp-> {
