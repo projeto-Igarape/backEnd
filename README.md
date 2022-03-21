@@ -24,3 +24,109 @@ O backend do projeto foi desenvolvido com MySQL e Spring Boot. Para o frontend, 
   <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
   <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
   <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+ 
+ 
+ ### Desenvolvedores:
+ <table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/paivasbr">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/paivasbr.png"
+					alt="Brenda S. Paiva"
+				/>
+				<br />
+				<sub>
+					<b>Brenda S.<br>Paiva</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/rafaelsotnas">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/rafaelsotnas.png"
+					alt="Rafael Ferreira"
+				/>
+				<br />
+				<sub>
+					<b>Rafael<br>Ferreira</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/Karol-Soares">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/Karol-Soares.png"
+					alt="Karol Soares"
+				/>
+				<br />
+				<sub>
+					<b>Karol<br>Soares</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/scavalari">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/scavalari.png"
+					alt="Stephanie Ferreira"
+				/>
+				<br />
+				<sub>
+					<b>Stephanie<br>Ferreira</b>
+				</sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://github.com/thatipiresss">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/thatipiresss.png"
+					alt="Thatiane Pires"
+				/>
+				<br />
+				<sub>
+					<b>Thatiane<br>Pires</b>
+				</sub>
+			</a>
+		</td>
+  <td align="center">
+			<a href="https://github.com/laricp">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/laricp.png"
+					alt="Larissa Pavan"
+				/>
+				<br />
+				<sub>
+					<b>Larissa<br>Pavan</b>
+				</sub>
+			</a>
+		</td>
+  <td align="center">
+			<a href="https://github.com/Mohotrisk">
+				<img
+					width="100px"
+					height="auto"
+					src="https://github.com/Mohotrisk.png"
+					alt="Diego Martins Santos"
+				/>
+				<br />
+				<sub>
+					<b>Diego Martins<br>Santos</b>
+				</sub>
+			</a>
+		</td>
+	</tr>
+</table>
+ 
