@@ -100,11 +100,11 @@ O backend do projeto foi desenvolvido com MySQL e Spring Boot. Para o frontend, 
 			</a>
 		</td>
   <td align="center">
-			<a href="https://github.com/laricp">
+			<a href="https://github.com/larissacpavan">
 				<img
 					width="100px"
 					height="auto"
-					src="https://github.com/laricp.png"
+					src="https://github.com/larissacpavan.png"
 					alt="Larissa Pavan"
 				/>
 				<br />
